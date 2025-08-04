@@ -1,0 +1,258 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"5a5e0726-f668-497f-87a5-7828bc2402ec\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/.gitignore\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/misc.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/conversor-de-moneda.iml\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/lib/gson-2.13.1.jar\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"customColor\": \"\",\n  \"associatedIndex\": 6\n}]]></component>\n  <component name=\"ProjectId\" id=\"30peGaNAHBEKbVCp6A5yXbKocu2\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"ASKED_SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"ModuleVcsDetector.initialDetectionPerformed\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"RunOnceActivity.git.unshallow\": \"true\",\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"last_opened_file_path\": \"/Users/david/IdeaProjects/conversor-de-moneda\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.15\",\n    \"project.structure.side.proportion\": \"0.2\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$/lib\" />\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"5a5e0726-f668-497f-87a5-7828bc2402ec\" name=\"Changes\" comment=\"\" />\n      <created>1754328846834</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1754328846834</updated>\n    </task>\n    <servers />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 382f4db2cd09d563a62effbc8eec0787a975ef05)
++++ b/.idea/workspace.xml	(date 1754332310597)
+@@ -5,17 +5,19 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5a5e0726-f668-497f-87a5-7828bc2402ec" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/conversor-de-moneda.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/lib/gson-2.13.1.jar" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Conversor.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
+   </component>
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -32,21 +34,23 @@
+   <component name="PropertiesComponent"><![CDATA[{
+   "keyToString": {
+     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Application.Conversor.executor": "Run",
+     "ModuleVcsDetector.initialDetectionPerformed": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "RunOnceActivity.git.unshallow": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "git-widget-placeholder": "main",
++    "git-widget-placeholder": "Merging main",
+     "last_opened_file_path": "/Users/david/IdeaProjects/conversor-de-moneda",
+-    "project.structure.last.edited": "Modules",
++    "onboarding.tips.debug.path": "/Users/david/IdeaProjects/conversor-de-moneda/src/src/Main.java",
++    "project.structure.last.edited": "Libraries",
+     "project.structure.proportion": "0.15",
+     "project.structure.side.proportion": "0.2"
+   }
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+-      <recent name="$PROJECT_DIR$/lib" />
+       <recent name="$PROJECT_DIR$" />
++      <recent name="$PROJECT_DIR$/lib" />
+     </key>
+   </component>
+   <component name="TaskManager">
+Index: Conversor.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Conversor.java b/Conversor.java
+new file mode 100644
+--- /dev/null	(date 1754332282821)
++++ b/Conversor.java	(date 1754332282821)
+@@ -0,0 +1,185 @@
++package com.conversor;
++
++import com.google.gson.Gson;
++import com.google.gson.annotations.SerializedName;
++
++import java.io.IOException;
++import java.math.BigDecimal;
++import java.math.RoundingMode;
++import java.net.URI;
++import java.net.http.HttpClient;
++import java.net.http.HttpRequest;
++import java.net.http.HttpResponse;
++import java.time.Duration;
++import java.util.Map;
++import java.util.Scanner;
++import java.util.Set;
++import java.util.stream.Collectors;
++
++public class Conversor {
++
++    static class ExchangeRateResponse {
++        @SerializedName("result")
++        String result;
++        @SerializedName("base_code")
++        String baseCode;
++        @SerializedName("conversion_rates")
++        Map<String, Double> conversionRates;
++        @SerializedName("time_last_update_utc")
++        String lastUpdated;
++        @SerializedName("error-type")
++        String errorType;
++    }
++
++
++    private static final Set<String> ALLOWED_CURRENCIES = Set.of("MXN", "BOB", "BRL", "CLP", "COP", "USD");
++    private static final String API_KEY = "5f5385b02403aa1de7d6abdf";
++    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6";
++    private static final HttpClient HTTP_CLIENT = HttpClient.newBuilder()
++            .version(HttpClient.Version.HTTP_2)
++            .followRedirects(HttpClient.Redirect.NORMAL)
++            .build();
++
++    public static void main(String[] args) {
++        Scanner sc = new Scanner(System.in);
++
++        while (true) {
++            exibirMenu();
++            String opcion = sc.nextLine().trim();
++
++            if ("7".equals(opcion)) {
++                System.out.println("Saliendo. ¡Gracias por usar el conversor!");
++                break;
++            }
++
++            String from, to;
++            switch (opcion) {
++                case "1":
++                    from = "USD";
++                    to = "MXN";
++                    break;
++                case "2":
++                    from = "MXN";
++                    to = "USD";
++                    break;
++                case "3":
++                    from = "USD";
++                    to = "BRL";
++                    break;
++                case "4":
++                    from = "BRL";
++                    to = "USD";
++                    break;
++                case "5":
++                    from = "USD";
++                    to = "COP";
++                    break;
++                case "6":
++                    from = "COP";
++                    to = "USD";
++                    break;
++                default:
++                    System.out.println("Opción inválida. Intenta de nuevo.");
++                    continue;
++            }
++
++            System.out.printf("Ingresa la cantidad en %s: ", from);
++            double amount;
++            try {
++                amount = Double.parseDouble(sc.nextLine().trim());
++            } catch (NumberFormatException e) {
++                System.out.println("Cantidad inválida. Vuelve a intentarlo.");
++                continue;
++            }
++
++            try {
++                BigDecimal resultado = convertirMoneda(from, to, amount);
++                System.out.printf("%s %.4f = %s %s%n",
++                        from, amount,
++                        resultado.setScale(6, RoundingMode.HALF_UP).toPlainString(), to);
++            } catch (Exception e) {
++                System.out.println("Error en la conversión: " + e.getMessage());
++            }
++
++            System.out.println();
++        }
++
++        sc.close();
++    }
++
++    public static void exibirMenu() {
++        System.out.println("""
++                ****************************************************
++                Sea bienvenido/a al Conversor de Moneda =]
++                
++                1) Dólar => Peso mexicano
++                2) Peso mexicano => Dólar
++                3) Dólar => Real brasileño
++                4) Real brasileño => Dólar
++                5) Dólar => Peso colombiano
++                6) Peso colombiano => Dólar
++                7) Salir
++                Elija una opción válida:
++                ****************************************************""");
++    }
++
++    public static BigDecimal convertirMoneda(String from, String to, double amount) throws IOException, InterruptedException {
++        if (!ALLOWED_CURRENCIES.contains(from) || !ALLOWED_CURRENCIES.contains(to)) {
++            throw new IllegalArgumentException("Moneda no permitida. Sólo se admiten: " + ALLOWED_CURRENCIES);
++        }
++
++        ExchangeRateResponse responseObj = fetchRates(from);
++        Map<String, Double> filteredRates = filtrarConversionRates(responseObj.conversionRates);
++
++        System.out.println("Tasas disponibles desde " + responseObj.baseCode + ":");
++        filteredRates.forEach((code, val) -> System.out.printf("  %s = %.6f%n", code, val));
++
++        if (!filteredRates.containsKey(to)) {
++            throw new IOException("Tasa no disponible para: " + to + " (o no está en la lista permitida)");
++        }
++
++        double tasa = filteredRates.get(to);
++        BigDecimal cantidad = BigDecimal.valueOf(amount);
++        BigDecimal tasaBD = BigDecimal.valueOf(tasa);
++        return cantidad.multiply(tasaBD);
++    }
++
++    private static ExchangeRateResponse fetchRates(String base) throws IOException, InterruptedException {
++        String url = String.format("%s/%s/latest/%s", BASE_URL, API_KEY, base);
++        HttpRequest request = HttpRequest.newBuilder()
++                .uri(URI.create(url))
++                .timeout(Duration.ofSeconds(10))
++                .header("Accept", "application/json")
++                .GET()
++                .build();
++
++        HttpResponse<String> resp = HTTP_CLIENT.send(request, HttpResponse.BodyHandlers.ofString());
++
++        if (resp.statusCode() != 200) {
++            throw new IOException("Respuesta HTTP no exitosa: " + resp.statusCode());
++        }
++
++        Gson gson = new Gson();
++        ExchangeRateResponse rateResponse = gson.fromJson(resp.body(), ExchangeRateResponse.class);
++
++        if (rateResponse == null) {
++            throw new IOException("No se pudo parsear la respuesta JSON.");
++        }
++        if (!"success".equalsIgnoreCase(rateResponse.result)) {
++            String tipo = rateResponse.errorType != null ? rateResponse.errorType : "desconocido";
++            throw new IOException("API devolvió error: " + tipo);
++        }
++        if (rateResponse.conversionRates == null) {
++            throw new IOException("No se recibieron tasas de conversión.");
++        }
++
++        return rateResponse;
++    }
++
++    private static Map<String, Double> filtrarConversionRates(Map<String, Double> original) {
++        if (original == null) return Map.of();
++        return original.entrySet().stream()
++                .filter(e -> ALLOWED_CURRENCIES.contains(e.getKey()))
++                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
++    }
++}
